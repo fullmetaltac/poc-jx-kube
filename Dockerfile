@@ -19,3 +19,6 @@ RUN ssh-keyscan -H github.com >> ~/.ssh/known_hosts
 ENV GIT_TEMPLATE_URL=https://github.com/lvthillo/python-flask-docker.git
 ENV GIT_TEMPLATE_BRANCH=master
 ENV GCLOUD_PROJECT_ID=jx-kube-demo
+ENV GIT_MAIL=malkin.dmytro@gmail.com
+ENV GIT_NEW_REPO_NAME=jx-demo
+ENV JX_ADMIN_PASS=xxx
